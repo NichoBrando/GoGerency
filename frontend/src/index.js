@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Routes from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className = "titleDiv">
+      <h1 className = "fontRighteous h1">GoGerency</h1>
+      <span className = "fontRighteous">By NichoBrando</span>
+    </div>
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );

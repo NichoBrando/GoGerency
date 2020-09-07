@@ -6,8 +6,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.h1{
+  font-size: 40px !important;
+}
+.titleDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.fontRighteous{
+  font-family: 'Righteous', cursive;
+}
+.container-div{
+  position: relative;
+  height: 450px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.bt1{
+  border-top: 2px solid black !important;
+}
+.h60{
+  position: relative !important;
+  height: 60% !important;
+  width: 100% !important;
+}
+.p10{
+  padding: 10px;
 }
