@@ -5,13 +5,11 @@ import Index from './Components/index';
 
 const Routes = () => {
   return (
-    <div className="container-div">
       <BrowserRouter>
         <Switch>
           <Route path = "/" exact component = {Index}/>
         </Switch>
       </BrowserRouter>
-    </div>
-  )
+  );
 }
 export default Routes;
